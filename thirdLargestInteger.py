@@ -1,3 +1,4 @@
+
 #Given an array of distinct elements. Find the third largest element in it.
 #Input:
 #N = 5
@@ -22,7 +23,6 @@ def thirdLargestInt(intLen, arrValues):
                 big2 = big1
                 big1 = arrValues[a]
     return int(big3)
-
 if __name__=='__main__':
     arr = []
     print("Enter the length of Array: ")
